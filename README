@@ -1,0 +1,23 @@
+This Shiny application has been developed as a practical exercise for the 'Developing Data Products' Coursera course (https://www.coursera.org/learn/data-products/).
+
+This is a basic visor of the Wine Data Set from the UCI Machine Learning Reposity. As explained in the official webpage: 
+These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. These constituents are:
+1) Alcohol 
+2) Malic acid 
+3) Ash 
+4) Alcalinity of ash 
+5) Magnesium 
+6) Total phenols 
+7) Flavanoids 
+8) Nonflavanoid phenols 
+9) Proanthocyanins 
+10)Color intensity 
+11)Hue 
+12)OD280/OD315 of diluted wines 
+13)Proline 
+
+The interface provided allows to compare three different approaches for grouping the three kinds of cultivars.
+
+Confusion matrix obtained using this model:
+
+The left hand side of the matrix displays the actual type of the wine whereas the columns shows the type assigned using the model. Wikipedia article about Confusion Matrix (https://en.wikipedia.org/wiki/Confusion_matrix)
