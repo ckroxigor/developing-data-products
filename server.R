@@ -10,12 +10,12 @@ library(rpart)
 library(cluster)
 library(MASS)
 
-#load datas
+#Load Data
 data <- read.csv("./data/wine.csv")
 data$Class <- as.factor(data$Class)
 
 shinyServer(function(input, output) {
-
+  #This function plots the result of the clustering
   output$distPlot <- renderPlot({
     if (input$algorithm == "K-means") {
       fit <- kmeans(as.matrix(data[,-1]), 3)
